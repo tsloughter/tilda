@@ -1434,7 +1434,7 @@ static void button_keybinding_clicked_cb (GtkWidget *w)
                               GTK_DIALOG_DESTROY_WITH_PARENT,
                               GTK_MESSAGE_QUESTION,
                               GTK_BUTTONS_CANCEL,
-                              "Enter keyboard shortcut");
+                              _("Enter keyboard shortcut"));
 
     /* Connect the key grabber to the dialog */
     g_signal_connect (GTK_OBJECT(dialog), "key_press_event", GTK_SIGNAL_FUNC(wizard_dlg_key_grab), w);

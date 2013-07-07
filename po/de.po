@@ -7,15 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tilda\n"
 "Report-Msgid-Bugs-To: sloutri@iit.edu\n"
-"POT-Creation-Date: 2010-08-27 16:41+0200\n"
-"PO-Revision-Date: 2008-04-03 20:02+0000\n"
-"Last-Translator: Benjamin Weber <Unknown>\n"
+"POT-Creation-Date: 2013-07-07 17:18+0200\n"
+"PO-Revision-Date: 2013-07-07 19:52+0200\n"
+"Last-Translator: Christian Weber <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-04-28 05:36+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 
 #: tilda.glade:7
 msgid "Tilda Config"
@@ -23,74 +22,91 @@ msgstr "Tilda Konfiguration"
 
 #: tilda.glade:41
 msgid "Auto Hide Delay:"
-msgstr ""
+msgstr "Ausblendeverzögerung"
 
 #: tilda.glade:59
 msgid "Hide when Tilda loses focus"
-msgstr ""
+msgstr "Ausblenden, wenn Tilda Fokus verliert"
 
 #: tilda.glade:72
 msgid "Hide Tilda when mouse leaves it"
-msgstr ""
+msgstr "Ausblenden, wenn Maus Tilda verlässt"
 
 #: tilda.glade:90
-#, fuzzy
 msgid "<b>Auto Hide</b>"
-msgstr "<b>Titel</b>"
+msgstr "<b>Automatisches Ausblenden</b>"
 
-#: tilda.glade:123
+#: tilda.glade:121
+msgid ""
+"Close Tilda\n"
+"Open a new terminal\n"
+"Open a new terminal and hide"
+msgstr ""
+"Beende Tilda\n"
+"Neues Terminal starten\n"
+"Neues Terminal starten und ausblenden"
+
+#: tilda.glade:135
+msgid "When Last Terminal is Closed:"
+msgstr "Wenn letztes Terminal geschlossen wird"
+
+#: tilda.glade:149
+msgid "<b>Program exit</b>"
+msgstr "<b>Beenden</b>"
+
+#: tilda.glade:182
 msgid "Display on all workspaces"
 msgstr "Auf allen Arbeitsbereichen anzeigen"
 
-#: tilda.glade:136
+#: tilda.glade:195
 msgid "Always on top"
 msgstr "Im Vordergrund"
 
-#: tilda.glade:151
+#: tilda.glade:210
 msgid "Do not show in taskbar"
 msgstr "Nicht in der Taskleiste anzeigen"
 
-#: tilda.glade:166 src/tilda.c:303
+#: tilda.glade:225 src/tilda.c:299
 msgid "Start Tilda hidden"
 msgstr "Tilda versteckt starten"
 
-#: tilda.glade:183
+#: tilda.glade:242
 msgid "Show Notebook Border"
 msgstr "Notitzbuchrand anzeigen"
 
-#: tilda.glade:198
+#: tilda.glade:257
 msgid "Enable Double Buffering"
 msgstr "Double Buffering aktivieren"
 
-#: tilda.glade:219
+#: tilda.glade:278
 msgid "<b>Window Display</b>"
 msgstr "<b>Fenster-Anzeige</b>"
 
-#: tilda.glade:249
+#: tilda.glade:308
 msgid "Audible Terminal Bell"
 msgstr "Akkustische Terminalglocke"
 
-#: tilda.glade:262
+#: tilda.glade:321
 msgid "Cursor Blinks"
 msgstr "blinkender Cursor"
 
-#: tilda.glade:281
+#: tilda.glade:340
 msgid "<b>Terminal Display</b>"
 msgstr "<b>Terminal-Anzeige</b>"
 
-#: tilda.glade:314
+#: tilda.glade:373
 msgid "Enable Antialiasing"
 msgstr "Antialiasing aktivieren"
 
-#: tilda.glade:327
+#: tilda.glade:386
 msgid "Allow Bold Text"
 msgstr "Fetten Text erlauben"
 
-#: tilda.glade:342
+#: tilda.glade:401
 msgid "Position of Tabs:"
 msgstr "Position der Tabs:"
 
-#: tilda.glade:355 tilda.glade:1216
+#: tilda.glade:414 tilda.glade:1275
 msgid ""
 "Top\n"
 "Bottom\n"
@@ -102,44 +118,43 @@ msgstr ""
 "Links\n"
 "Rechts"
 
-#: tilda.glade:394
+#: tilda.glade:453
 msgid "Font:"
 msgstr "Schriftart:"
 
-#: tilda.glade:413
+#: tilda.glade:472
 msgid "<b>Font</b>"
 msgstr "<b>Schriftart</b>"
 
-#: tilda.glade:434
+#: tilda.glade:493
 msgid "General"
 msgstr "Allgemein"
 
-#: tilda.glade:478
+#: tilda.glade:537
 msgid "Word Characters"
-msgstr ""
+msgstr "Wortzeichen"
 
-#: tilda.glade:493
+#: tilda.glade:552
 msgid "<b>Select by Word</b>"
-msgstr ""
+msgstr "<b>Wörter auswählen</b>"
 
-#: tilda.glade:541
+#: tilda.glade:600
 msgid "Web Browser"
 msgstr "Webbrowser"
 
-#: tilda.glade:556
+#: tilda.glade:615
 msgid "<b>URL Handling</b>"
 msgstr "<b>URL-Handhabung</b>"
 
-#: tilda.glade:588
+#: tilda.glade:647
 msgid "Initial Title:"
 msgstr "Anfangsüberschrift"
 
-#: tilda.glade:598
+#: tilda.glade:657
 msgid "Dynamically-set Title:"
 msgstr "Dynamische Überschrift"
 
-#: tilda.glade:621
-#, fuzzy
+#: tilda.glade:680
 msgid ""
 "Isn't displayed\n"
 "Goes after initial title\n"
@@ -151,23 +166,23 @@ msgstr ""
 "Kommt vor Anfangstitel\n"
 "Ersetze Anfangstitel"
 
-#: tilda.glade:642
+#: tilda.glade:701
 msgid "<b>Title</b>"
 msgstr "<b>Titel</b>"
 
-#: tilda.glade:675
+#: tilda.glade:734
 msgid "Run a custom command instead of the shell"
 msgstr "Führe benutzerdefinierten Befehl anstelle der Shell aus"
 
-#: tilda.glade:687
+#: tilda.glade:746
 msgid "Custom Command:"
 msgstr "Benutzerdefinierter Befehl:"
 
-#: tilda.glade:699
+#: tilda.glade:758
 msgid "When Command Exits:"
 msgstr "Wenn Befehl endet:"
 
-#: tilda.glade:711
+#: tilda.glade:770
 msgid ""
 "Hold the terminal open\n"
 "Restart the command\n"
@@ -177,87 +192,87 @@ msgstr ""
 "Befehl erneut ausführen\n"
 "Terminal beenden"
 
-#: tilda.glade:744
+#: tilda.glade:803
 msgid "<b>Command</b>"
 msgstr "<b>Kommando</b>"
 
-#: tilda.glade:768
+#: tilda.glade:827
 msgid "Title and Command"
 msgstr "Titel und Kommando"
 
-#: tilda.glade:795 tilda.glade:880
+#: tilda.glade:854 tilda.glade:939
 msgid "Percentage"
 msgstr "Prozentanteil"
 
-#: tilda.glade:820 tilda.glade:891
+#: tilda.glade:879 tilda.glade:950
 msgid "In Pixels"
-msgstr "In Pixel"
+msgstr "In Pixeln"
 
-#: tilda.glade:851
+#: tilda.glade:910
 msgid "<b>Height</b>"
 msgstr "<b>Höhe</b>"
 
-#: tilda.glade:936
+#: tilda.glade:995
 msgid "<b>Width</b>"
 msgstr "<b>Breite</b>"
 
-#: tilda.glade:968
+#: tilda.glade:1027
 msgid "Centered Horizontally"
 msgstr "Horizontal zentriert"
 
-#: tilda.glade:984
+#: tilda.glade:1043
 msgid "Centered Vertically"
 msgstr "Vertikal zentriert"
 
-#: tilda.glade:1001 src/tilda.c:310
+#: tilda.glade:1060 src/tilda.c:306
 msgid "X Position"
 msgstr "X Position"
 
-#: tilda.glade:1014 src/tilda.c:311
+#: tilda.glade:1073 src/tilda.c:307
 msgid "Y Position"
 msgstr "Y Position"
 
-#: tilda.glade:1065
+#: tilda.glade:1124
 msgid "<b>Position</b>"
 msgstr "<b>Position</b>"
 
-#: tilda.glade:1100
+#: tilda.glade:1159
 msgid "Enable Transparency"
 msgstr "Transparenz aktivieren"
 
-#: tilda.glade:1113
+#: tilda.glade:1172
 msgid "Level of Transparency"
 msgstr "Transparenzstufe"
 
-#: tilda.glade:1140
+#: tilda.glade:1199
 msgid "Animated Pulldown"
 msgstr "Pulldown animieren"
 
-#: tilda.glade:1155
+#: tilda.glade:1214
 msgid "Use Image for Background"
 msgstr "Hintergrundbild verwenden"
 
-#: tilda.glade:1170
+#: tilda.glade:1229
 msgid "Animation Delay (usec)"
-msgstr "Verzögerte Animation (msec)"
+msgstr "Verzögerte Animation (µsec)"
 
-#: tilda.glade:1185
+#: tilda.glade:1244
 msgid "Animation Orientation"
 msgstr "Animationsorientierung"
 
-#: tilda.glade:1252
+#: tilda.glade:1311
 msgid "<b>Extras</b>"
 msgstr "<b>Extras</b>"
 
-#: tilda.glade:1276
+#: tilda.glade:1335
 msgid "Appearance"
 msgstr "Darstellung"
 
-#: tilda.glade:1316
+#: tilda.glade:1375
 msgid "Built-in Schemes"
 msgstr "Eingebaute Schemata"
 
-#: tilda.glade:1326
+#: tilda.glade:1385
 msgid ""
 "Custom\n"
 "Green on Black\n"
@@ -269,67 +284,67 @@ msgstr ""
 "Schwarz auf Weiss\n"
 "Weiss auf Schwarz"
 
-#: tilda.glade:1341
+#: tilda.glade:1400
 msgid "Text Color"
 msgstr "Textfarbe"
 
-#: tilda.glade:1353
+#: tilda.glade:1412
 msgid "Background Color"
 msgstr "Hintergrundfarbe"
 
-#: tilda.glade:1399
+#: tilda.glade:1458
 msgid "<b>Foreground and Background Colors</b>"
 msgstr "<b>Vordergrund- und Hintergrundfarbe</b>"
 
-#: tilda.glade:1429 tilda.glade:1988
+#: tilda.glade:1488 tilda.glade:2047
 msgid "    "
 msgstr "    "
 
-#: tilda.glade:1447
+#: tilda.glade:1506
 msgid ""
 "<small><i><b>Note:</b> Terminal applications have these colors available to "
 "them.</i></small>"
 msgstr ""
+"<small><i><b>Hinweis:</b> Textbasierte Anwendungen nutzen diese Farben.</i></"
+"small>"
 
-#: tilda.glade:1460
+#: tilda.glade:1519
 msgid "Custom"
-msgstr ""
+msgstr "Benutzerdefiniert"
 
-#: tilda.glade:1726
+#: tilda.glade:1785
 msgid "Color palette:"
-msgstr ""
+msgstr "Farbpalette:"
 
-#: tilda.glade:1742
-#, fuzzy
+#: tilda.glade:1801
 msgid "Built-in schemes:"
 msgstr "Eingebaute Schemata"
 
-#: tilda.glade:1766
-#, fuzzy
+#: tilda.glade:1825
 msgid "<b>Palette</b>"
-msgstr "<b>Titel</b>"
+msgstr ""
 
-#: tilda.glade:1790
+#: tilda.glade:1849
 msgid "Colors"
 msgstr "Farben"
 
-#: tilda.glade:1817
+#: tilda.glade:1876
 msgid "Scroll on Output"
 msgstr "Ausgabe scrollen"
 
-#: tilda.glade:1832
+#: tilda.glade:1891
 msgid "Scroll on Keystroke"
 msgstr "Bei Tastendruck scrollen"
 
-#: tilda.glade:1847
+#: tilda.glade:1906
 msgid "Scroll Background"
 msgstr "Hintergrund scrollen"
 
-#: tilda.glade:1875
+#: tilda.glade:1934
 msgid "lines"
 msgstr "Zeilen"
 
-#: tilda.glade:1893
+#: tilda.glade:1952
 msgid ""
 "On the Left\n"
 "On the Right\n"
@@ -339,28 +354,27 @@ msgstr ""
 "Rechts\n"
 "Deaktiviert"
 
-#: tilda.glade:1907
+#: tilda.glade:1966
 msgid "Scrollback:"
 msgstr "Scrollbalken:"
 
-#: tilda.glade:1920
+#: tilda.glade:1979
 msgid "Scrollbar is:"
 msgstr "Scrollbalken ist:"
 
-#: tilda.glade:1935
+#: tilda.glade:1994
 msgid "<b>Scrolling</b>"
 msgstr "<b>Scrollen</b>"
 
-#: tilda.glade:1957
+#: tilda.glade:2016
 msgid "Scrolling"
 msgstr "Scrollen"
 
-#: tilda.glade:1974
+#: tilda.glade:2033
 msgid "<b>Compatibility</b>"
 msgstr "<b>Kompatibilität</b>"
 
-#: tilda.glade:2004
-#, fuzzy
+#: tilda.glade:2063
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
@@ -372,15 +386,15 @@ msgstr ""
 "Verfügung, damit problematische Anwendungen oder Betriebssysteme reibungslos "
 "funktionieren, die ein anderes Terminal-Verhalten erwarten.</i></small>"
 
-#: tilda.glade:2023
+#: tilda.glade:2082
 msgid "_Delete key generates:"
 msgstr "_Entfernen-Taste erzeugt:"
 
-#: tilda.glade:2038
+#: tilda.glade:2097
 msgid "_Backspace key generates:"
 msgstr "_Rücktaste erzeugt:"
 
-#: tilda.glade:2050 tilda.glade:2063
+#: tilda.glade:2109 tilda.glade:2122
 msgid ""
 "ASCII DEL\n"
 "Escape sequence\n"
@@ -390,101 +404,95 @@ msgstr ""
 "Escape-Sequenz\n"
 "Strg-H"
 
-#: tilda.glade:2091
+#: tilda.glade:2150
 msgid "_Reset Compatibility Options to Defaults"
 msgstr "Kompatibilitätseinstellungen auf Vorgabewerte _zurücksetzen"
 
-#: tilda.glade:2121
+#: tilda.glade:2180
 msgid "Compatibility"
 msgstr "Kompatibilität"
 
-#: tilda.glade:2145 tilda.glade:2181 tilda.glade:2219 tilda.glade:2255
-#: tilda.glade:2292 tilda.glade:2330 tilda.glade:2366 tilda.glade:2402
-#: tilda.glade:2438 tilda.glade:2474 tilda.glade:2510 tilda.glade:2548
-#: tilda.glade:2586 tilda.glade:2622 tilda.glade:2656 tilda.glade:2694
-#: tilda.glade:2732 tilda.glade:2770
+#: tilda.glade:2204 tilda.glade:2240 tilda.glade:2278 tilda.glade:2314
+#: tilda.glade:2351 tilda.glade:2389 tilda.glade:2425 tilda.glade:2461
+#: tilda.glade:2497 tilda.glade:2533 tilda.glade:2569 tilda.glade:2607
+#: tilda.glade:2645 tilda.glade:2681 tilda.glade:2715 tilda.glade:2753
+#: tilda.glade:2791 tilda.glade:2829
 msgid " "
 msgstr ""
 
-#: tilda.glade:2154
-#, fuzzy
+#: tilda.glade:2213
 msgid "<b>Paste</b>"
-msgstr "<b>Titel</b>"
+msgstr "<b>Einfügen</b>"
 
-#: tilda.glade:2190
+#: tilda.glade:2249
 msgid "<b>Go To Next Tab</b>"
-msgstr ""
+msgstr "<b>Nächster Tab</b>"
 
-#: tilda.glade:2228
-#, fuzzy
+#: tilda.glade:2287
 msgid "<b>Quit</b>"
-msgstr "<b>Titel</b>"
+msgstr "<b>Beenden</b>"
 
-#: tilda.glade:2264
-#, fuzzy
+#: tilda.glade:2323
 msgid "<b>Add Tab</b>"
-msgstr "<b>Titel</b>"
+msgstr "<b>Tab Hinzufügen</b>"
 
-#: tilda.glade:2301
+#: tilda.glade:2360
 msgid "<b>Go To Tab 10</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 10</b>"
 
-#: tilda.glade:2339
+#: tilda.glade:2398
 msgid "<b>Go To Tab 5</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 5</b>"
 
-#: tilda.glade:2375
+#: tilda.glade:2434
 msgid "<b>Go To Tab 4</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 4</b>"
 
-#: tilda.glade:2411
+#: tilda.glade:2470
 msgid "<b>Go To Tab 3</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 3</b>"
 
-#: tilda.glade:2447
+#: tilda.glade:2506
 msgid "<b>Go To Tab 2</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 2</b>"
 
-#: tilda.glade:2483
+#: tilda.glade:2542
 msgid "<b>Go To Tab 1</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 1</b>"
 
-#: tilda.glade:2519
+#: tilda.glade:2578
 msgid "<b>Go To Previous Tab</b>"
-msgstr ""
+msgstr "<b>Vorheriger Tab</b>"
 
-#: tilda.glade:2557
-#, fuzzy
+#: tilda.glade:2616
 msgid "<b>Close Tab</b>"
-msgstr "Tab s_chließen"
+msgstr "<b>Tab schließen</b>"
 
-#: tilda.glade:2595
-#, fuzzy
+#: tilda.glade:2654
 msgid "<b>Copy</b>"
-msgstr "<b>Schriftart</b>"
+msgstr "<b>Kopieren</b>"
 
-#: tilda.glade:2631
-#, fuzzy
+#: tilda.glade:2690
 msgid "<b>Pull Down Terminal</b>"
-msgstr "<b>\"Bild runter\"-Taste</b>"
+msgstr "<b>Terminal einblenden</b>"
 
-#: tilda.glade:2665
+#: tilda.glade:2724
 msgid "<b>Go To Tab 6</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 6</b>"
 
-#: tilda.glade:2703
+#: tilda.glade:2762
 msgid "<b>Go To Tab 7</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 7</b>"
 
-#: tilda.glade:2741
+#: tilda.glade:2800
 msgid "<b>Go To Tab 8</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 8</b>"
 
-#: tilda.glade:2779
+#: tilda.glade:2838
 msgid "<b>Go To Tab 9</b>"
-msgstr ""
+msgstr "<b>Gehe zu Tab 9</b>"
 
-#: tilda.glade:2805
+#: tilda.glade:2864
 msgid "Keybindings"
 msgstr "Tastenbelegungen"
 
@@ -496,82 +504,78 @@ msgstr "Unbenannt"
 msgid "Bad value for \"d_set_title\" in config file\n"
 msgstr "Ungültiger Wert für \"d_set_title\" in der Konfigurationsdatei\n"
 
-#: src/configsys.c:172
-#, fuzzy
+#: src/configsys.c:173
 msgid "Problem parsing config file\n"
-msgstr "Problem beim Parsen der Konfigurationsdatei\n"
+msgstr "Problem beim Lesen der Konfigurationsdatei\n"
 
-#: src/configsys.c:313
-#, fuzzy
+#: src/configsys.c:314
 msgid "Unable to sync the config file to disk\n"
 msgstr "Konnte die Konfigurationsdatei nicht speichern\n"
 
-#: src/configsys.c:323
+#: src/configsys.c:324
 msgid "Unable to close the config file\n"
 msgstr "Kann die Konfigurationsdatei nicht schließen\n"
 
-#: src/configsys.c:332
+#: src/configsys.c:333
 #, c-format
 msgid "Unable to write the config file to %s\n"
 msgstr "Kann die Konfigurationsdatei nicht nach %s schreiben\n"
 
-#: src/tilda.c:214
+#: src/tilda.c:210
 #, c-format
 msgid "Unable to run command: `%s'\n"
 msgstr "Kann Befehl nicht ausführen: `%s'\n"
 
-#: src/tilda.c:237 src/tilda.c:463
+#: src/tilda.c:233 src/tilda.c:465
 #, c-format
 msgid "Unable to open lock directory: %s\n"
-msgstr "Kann gesperrtes Verzeichnis nicht öffnen: %s\n"
+msgstr "Kann Lock-Verzeichnis nicht öffnen: %s\n"
 
-#: src/tilda.c:300
+#: src/tilda.c:296
 msgid "Use Antialiased Fonts"
-msgstr "Antialiased Zeichensatz verwenden"
+msgstr "Zeichensatz mit Antialiasing verwenden"
 
-#: src/tilda.c:301
+#: src/tilda.c:297
 msgid "Set the background color"
 msgstr "Hintergrundfarbe auswählen"
 
-#: src/tilda.c:302
+#: src/tilda.c:298
 msgid "Run a command at startup"
 msgstr "Befehl beim Starten ausführen"
 
-#: src/tilda.c:304
+#: src/tilda.c:300
 msgid "Set the font to the following string"
 msgstr "Setze die Schriftart auf folgenden String"
 
-#: src/tilda.c:305
-#, fuzzy
+#: src/tilda.c:301
 msgid "Scrollback Lines"
-msgstr "Zurück zu scrollende Zeilen"
+msgstr "Zurückscrollbare Zeilen"
 
-#: src/tilda.c:306
+#: src/tilda.c:302
 msgid "Use Scrollbar"
 msgstr "Scrollbalken benutzen"
 
-#: src/tilda.c:307
+#: src/tilda.c:303
 msgid "Opaqueness: 0-100%"
 msgstr "Transparenz: 0-100%"
 
-#: src/tilda.c:308
+#: src/tilda.c:304
 msgid "Print the version, then exit"
 msgstr "Version ausgeben, danach beenden"
 
-#: src/tilda.c:309
-#, fuzzy
+#: src/tilda.c:305
 msgid "Set Initial Working Directory"
 msgstr "Startverzeichnis setzen"
 
-#: src/tilda.c:312
+#: src/tilda.c:308
 msgid "Set Background Image"
 msgstr "Hintergrundbild festlegen"
 
-#: src/tilda.c:313
+#: src/tilda.c:309
 msgid "Show Configuration Wizard"
 msgstr "Konfigurationsassistenten starten"
 
-#: src/tilda.c:329
+#: src/tilda.c:325
 #, c-format
 msgid ""
 "Error parsing command-line options. Try \"tilda --help\"\n"
@@ -585,24 +589,31 @@ msgstr ""
 "\n"
 "Fehlermeldung: %s\n"
 
-#: src/tilda.c:604 src/wizard.c:298
-#, fuzzy
+#: src/tilda.c:425
+#, c-format
+msgid "Creating directory:'%s'\n"
+msgstr ""
+
+#: src/tilda.c:544
+msgid "Migrating old config path to XDG folders\n"
+msgstr ""
+
+#: src/tilda.c:636 src/wizard.c:298
 msgid ""
 "The keybinding you chose for \"Pull Down Terminal\" is invalid. Please "
 "choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Terminal einblenden\" ist ungültig."
+"Bitte wählen Sie ein Anderes."
 
 #: src/tilda_terminal.c:385
-#, fuzzy, c-format
+#, c-format
 msgid "Problem parsing custom command: %s\n"
-msgstr "Problem beim Parsen eines benutzerdefinierten Befehls: %s\n"
+msgstr "Problem beim Lesen eines benutzerdefinierten Befehls: %s\n"
 
 #: src/tilda_terminal.c:386 src/tilda_terminal.c:403
-#, fuzzy
 msgid "Launching default shell instead\n"
-msgstr "Öffne stattdessen die Standard-Shell\n"
+msgstr "Starte stattdessen die Standard-Shell\n"
 
 #: src/tilda_terminal.c:402
 #, c-format
@@ -610,7 +621,7 @@ msgid "Unable to launch custom command: %s\n"
 msgstr "Konnte benutzerdefinierten Befehl nicht ausführen: %s\n"
 
 #: src/tilda_terminal.c:427
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to launch default shell: %s\n"
 msgstr "Konnte die Standard-Shell nicht öffnen: %s\n"
 
@@ -624,10 +635,10 @@ msgstr "Tab s_chließen"
 
 #: src/tilda_terminal.c:728
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Vollbild ein/aus"
 
 #: src/tilda_terminal.c:814
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to launch the web browser. The command was `%s'\n"
 msgstr "Konnte Webbrowser nicht starten. Der Befehl lautete `%s'\n"
 
@@ -640,7 +651,7 @@ msgstr "Die Konfigurationsdatei enthält eine falsche tab_pos\n"
 msgid "Unable to set tilda's icon: %s\n"
 msgstr "Kann tildas Symbol nicht festlegen: %s\n"
 
-#: src/tilda_window.c:571
+#: src/tilda_window.c:566
 msgid "Out of memory, cannot create tab\n"
 msgstr "Kein Speicher vorhanden, Tab kann nicht erstellt werden\n"
 
@@ -661,164 +672,144 @@ msgid "Rxvt"
 msgstr ""
 
 #: src/wizard.c:216
-#, fuzzy, c-format
+#, c-format
 msgid "Tilda %d Config"
-msgstr "Tilda Konfiguration"
+msgstr "Tilda %d Konfiguration"
 
 #: src/wizard.c:302
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Add Tab\" is invalid. Please choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Tab Hinzufügen\" ist ungültig."
+"Bitte wählen Sie ein Anderes."
 
 #: src/wizard.c:304
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Close Tab\" is invalid. Please choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Tab schließen\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:306
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Next Tab\" is invalid. Please choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Nächster Tab\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:308
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Previous Tab\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Vorheriger Tab\" ist ungültig."
+"Bitte wählen Sie ein Anderes."
 
 #: src/wizard.c:310
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Copy\" is invalid. Please choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Kopieren\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:312
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Paste\" is invalid. Please choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Einfügen\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:314
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Quit\" is invalid. Please choose another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Beenden\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:316
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 1\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 1\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:318
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 2\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 2\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:320
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 3\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 3\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:322
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 4\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 4\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:324
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 5\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 5\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:326
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 6\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 6\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:328
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 7\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 7\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:330
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 8\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 8\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:332
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 9\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 9\" ist ungültig.Bitte "
+"wählen Sie ein Anderes."
 
 #: src/wizard.c:334
-#, fuzzy
 msgid ""
 "The keybinding you chose for \"Go To Tab 10\" is invalid. Please choose "
 "another."
 msgstr ""
-"Das von Ihnen gewählte Tastenkürzel ist ungültig. Bitte wählen Sie ein "
-"Anderes."
+"Das von Ihnen gewählte Tastenkürzel für \"Gehe zu Tab 10\" ist ungültig."
+"Bitte wählen Sie ein Anderes."
 
-#: src/wizard.c:679
+#: src/wizard.c:678
 msgid "Invalid tab position setting, ignoring\n"
-msgstr "Ungültige Einstellung der Registerkarten-Position. Ignoriere.\n"
+msgstr "Ungültige Einstellung der Tab-Position. Ignoriere.\n"
 
-#~ msgid "Grab Keybinding"
-#~ msgstr "Tastenbelegung erfassen"
-
-#, fuzzy
-#~ msgid "gtk-close"
-#~ msgstr "gtk-schließen"
+#: src/wizard.c:1437
+msgid "Enter keyboard shortcut"
+msgstr "Tastenkombination engeben"
